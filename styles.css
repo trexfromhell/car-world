@@ -1,9 +1,15 @@
-body{
-	font-family: sans-serif;
+.main-nav{
+	display:flex;
+	justify-content:space-between;
 }
-
-
-
+.main-list, .main-socials{
+	display:flex;
+	justify-content:space-between;
+	list-style:none;
+}
+.main-list{
+	width:336px;
+}
 
 
 
