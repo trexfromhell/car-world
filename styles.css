@@ -10,8 +10,16 @@
 .main-list{
 	width:336px;
 }
-
-
+.main-socials__item{
+	font-size:0;
+}
+.main-socials__item--facebook::before{
+	content:"";
+	display:block;
+	width:15px;
+	height:15px;
+	background-image:url("img/facebook.svg");
+}
 
 
 
