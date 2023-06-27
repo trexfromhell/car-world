@@ -20,111 +20,20 @@
 	height:15px;
 	background-image:url("img/facebook.svg");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.main-socials__item--instagram::before{
+	content:"";
+	display:block;
+	width:15px;
+	height:15px;
+	background-image:url("img/instagram.svg");
+}
+.main-socials__item--twitter::before{
+	content:"";
+	display:block;
+	width:15px;
+	height:15px;
+	background-image:url("img/twitter.svg");
+}
 
 
 
