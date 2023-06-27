@@ -1,0 +1,37 @@
+body {	font-size: 13px;	font-style: normal;	font-weight: normal;	font-family: "Roboto", "Arial", "Helvetica", sans-serif;}.container {	width: 1152px;	margin: 0 auto;}.main-nav{
+	display: flex;
+	justify-content: space-between;
+}
+.main-list, .main-socials{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.main-list{
+	width: 336px;
+}
+.main-socials__item {
+	font-size: 0;
+}.main-socials__item::before {	background-repeat: no-repeat;}
+.main-socials__item--facebook::before{
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-image: url("../img/facebook.svg");
+}
+.main-socials__item--instagram::before{
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-image: url("../img/instagram.svg");
+}
+.main-socials__item--twitter::before{
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-image: url("../img/twitter.svg");
+}.ads {	display: flex;
+	justify-content: flex-end;	background-image: url("../img/ads-banner.png");	background-repeat: no-repeat;	padding: 100px 0;}.ads__container {	margin-right: 50px;}.ads__title,.ads__subtitle,.ads__button,.ads__link {	color: white;}
